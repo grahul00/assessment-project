@@ -1,0 +1,55 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Bubblegum+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <style type="text/css">
+        #button{
+            color: black;
+        }
+    </style>
+    <title>SkyScanner</title>
+</head>
+<body>
+<div>
+    <center><h1 style="font-size: 50px;font-family: 'Bubblegum Sans', cursive; color: #000;" class="text-info"><b><u style="color: #000;">SKY FLIERS</u></b></h1></center>
+</div>
+<div>
+      <div class="container mt-5">
+        <center><h2><span class="text-info"><b style="color: #000;">Search Your Flight</b></span></h2></center>
+        <input type="text" id="search" placeholder="Enter IATA code..." class="form-control">
+      </div>
+      <div class=" container justify-content-between d-flex">
+        <div>
+          <button class="btn btn-info btn-outline m-4 p-3 prop" id="button" style="background-color:black; color: #fff;">Search</button>
+        </div>
+
+        <div>
+          <button class="btn btn-info prop btn-outline m-4 p-3" id="routes" style="background-color:black; color: #fff">Popular Routes</button>
+        </div>
+
+        <div>
+          <button class="btn btn-info prop btn-outline m-4 p-3" id="routesw" style="background-color:black;"><a href="weather.html" target="_blank" style="text-decoration:none; color: #fff">Weather</a></button>
+        </div>
+    </div>
+
+    <div class="container" style="max-height: 700px; overflow-y: scroll;">
+      <div id="place">
+      </div>
+      <div class="col-sm-9 mx-0" id="ticket">
+      </div>
+    </div>
+</div>
+
+    <footer style="bottom:0;position:fixed;background-color:#212121;padding:15px;width: 100%">
+      <p style="color:white;text-align:center;">Developed by @<a href="https://grahul00.github.io/" target="_blank">Rahul Goyal</a><p>
+    </footer>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src = "main.js"></script>
+</body>
+</html>

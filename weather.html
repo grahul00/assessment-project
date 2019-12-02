@@ -1,0 +1,41 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+        <title>Weather_info</title>
+        <script src="weather.js"></script>
+        <link rel="stylesheet" href="wet.css">
+    </head>
+    <body>
+        <br><br><br><br>
+      <div class="hel1">  
+        <center><h1 class="text-white"><b><u>WEATHER INFORMATION</u></b></h1></center>
+        <br>
+        <center><h2 class="cit">Enter City Name: </h2><br>
+        <input type="search" id="value" width="40" height="80"></center>
+        <br>
+
+      <div style="text-align:center;">
+          <div class="hel">
+            <button onclick="weather()" class="btnwet">Get Weather Temperature</button> &nbsp&nbsp&nbsp&nbsp
+            <div class="weth" id="xyz"></div>
+          </div>
+          <div class="hel">
+            <button onclick="weatherspeed()" class="btnwet">Get WeatherSpeed</button>&nbsp&nbsp&nbsp&nbsp
+            <div class="weth" id="abc"></div>
+          </div>
+          <div class="hel">
+            <button onclick="weatherhumidity()" class="btnwet">Get Weather Humidity</button>
+            <div class="weth" id="def"></div>
+          </div>
+      </div>
+
+      <br>
+      </div>
+
+      <footer style="bottom:0;position:fixed;background-color:#212121;padding:15px;width: 100%">
+         <p style="color:white;text-align:center;">Developed by @<a href="https://grahul00.github.io/" target="_blank">Rahul Goyal</a><p>
+      </footer>
+    </body>
+</html>

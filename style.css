@@ -1,0 +1,15 @@
+.card{
+    float: left;
+    margin:2%;
+}
+body {
+background-image:url("airline.jpeg");
+background-repeat:no-repeat;
+background-size: 100%;
+background-position: fixed;
+overflow: hidden;
+}
+
+#routes{
+	color:#000;
+}
